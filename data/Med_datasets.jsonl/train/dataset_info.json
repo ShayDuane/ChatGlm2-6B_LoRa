@@ -1,0 +1,41 @@
+{
+  "builder_name": "json",
+  "citation": "",
+  "config_name": "default",
+  "dataset_size": 3722727,
+  "description": "",
+  "download_checksums": {
+    "/Users/shuaiqiduan/my_project/chatglm2-6b-AdaLoRA/data/train.jsonl": {
+      "num_bytes": 3905661,
+      "checksum": null
+    }
+  },
+  "download_size": 3905661,
+  "features": {
+    "context": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "target": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 7628388,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 3722727,
+      "num_examples": 7622,
+      "dataset_name": "json"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
