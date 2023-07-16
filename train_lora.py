@@ -26,7 +26,7 @@ class FinetuneArguments():
     bnb_4bit_compute_dtype: str = field(default='float32')
     seed: int = field(default=42)
     resume_from_checkpoint: Union[str, bool] = field(default=None)
-    final_model_path: str = field(default='Lora_Adapter_THUDM_chatglm2-6b/finally_adapter')
+    final_model_path: str = field(default='QLora_Adapter_THUDM_chatglm2-6b/finally_adapter')
 
 @dataclass
 class LoraArguments():
