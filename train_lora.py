@@ -194,7 +194,7 @@ def train(args_path):
     if resume_from_checkpoint is not None:
         if os.path.exists(resume_from_checkpoint):
             logger.info(f'Restarting from {resume_from_checkpoint}')
-            model.load_adapter(resume_from_checkpoint, lora_args.Adapter_name, subfolder=lora_args.Adapter_name)
+            model.load_adapter(os.path.join(resume_from_checkpoint, lora_args.Adapter_name), lora_args.Adapter_name)
         else:
             raise Exception(f'{resume_from_checkpoint} is not a correct path!')
 
