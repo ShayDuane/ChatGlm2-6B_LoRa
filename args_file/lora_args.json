@@ -1,1 +1,1 @@
-{"r": 12, "target_modules": ["query_key_value"], "lora_alpha": 24, "lora_dropout": 0.05, "bias": "none", "inference_mode": false, "layers_to_transform": null, "layers_pattern": null, "Adapter_name": "LoraAdapter"}
+{"r": 12, "target_modules": ["query_key_value"], "lora_alpha": 48, "lora_dropout": 0.05, "bias": "none", "inference_mode": false, "layers_to_transform": null, "layers_pattern": null, "Adapter_name": "LoraAdapter"}
